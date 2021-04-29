@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     private fun getUrl(): String {
         val word = binding.searchEditText.text
         // Inside quotation marks insert your own key obtained at https://open-platform.theguardian.com/access/
-        val apiKey = "c798b31e-049e-4ee6-84fa-acf740a20662"
+        val apiKey = "YOUR KEY HERE"
 
         val pageSize = 10
         return "https://content.guardianapis.com/search?page=$pageNumber&page-size=$pageSize&q=$word&api-key=$apiKey"
